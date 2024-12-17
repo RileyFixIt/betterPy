@@ -6,3 +6,6 @@ class draw:
     turtle.pensize(pensize)
     turtle.right(angle)
     turtle.forward(length)
+
+def wait():
+  input()
