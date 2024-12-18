@@ -1,5 +1,4 @@
 import turtle
-import time
 
 class draw:
   def line(self, outline, pensize, angle, length):
