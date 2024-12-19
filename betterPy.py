@@ -17,3 +17,9 @@ class draw:
     turtle.clearscreen()
   def speed(self, num):
     turtle.speed(num)
+  def regular_shape(num, pensize, length, outline, fill):
+    turtle.color(outline, fill)
+    turtle.pensize(pensize)
+    for i in range(num):
+      turtle.forward(length)
+      turtle.right(360 / num)
