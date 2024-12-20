@@ -8,11 +8,13 @@ class draw:
     turtle.forward(length)
   def circle(self, outline, fill, pensize, size):
     turtle.color(outline, fill)
+    turtle.begin_fill()
     sizer = size
     turtle.pensize(pensize)
     for i in range(72):
-      turtle.forward(5 * sizer)
+      turtle.forward(0.5 * sizer)
       turtle.right(5)
+    turtle.end_fill()
   def clear(self):
     turtle.clearscreen()
   def speed(self, num):
