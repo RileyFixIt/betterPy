@@ -11,8 +11,8 @@ class draw:
     sizer = size
     turtle.pensize(pensize)
     for i in range(72):
-      turtle.forward(0.5 * sizer)
-      turtle.right(0.5)
+      turtle.forward(5 * sizer)
+      turtle.right(5)
   def clear(self):
     turtle.clearscreen()
   def speed(self, num):
