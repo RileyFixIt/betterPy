@@ -1,4 +1,4 @@
-import turtle
+import turtle, tkinter, time, random
 
 class draw:
   def line(self, outline, pensize, angle, length):
@@ -25,3 +25,9 @@ class draw:
     for i in range(num):
       turtle.forward(length)
       turtle.right(360 / num)
+
+class GUI:
+  def __init__(self, title):
+    window = tkinter.Tk()
+    window.title(title)
+    return window
